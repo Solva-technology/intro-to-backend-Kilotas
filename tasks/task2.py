@@ -1,3 +1,6 @@
 def is_even(number: int) -> int:
-    # Верните True, если number чётное, иначе False
-    return None
+    if number % 2 == 0:
+        condition = True
+    else:
+        condition = False
+    return condition
